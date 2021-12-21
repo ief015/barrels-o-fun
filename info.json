@@ -1,0 +1,9 @@
+{
+  "name": "barrels-o-fun",
+  "version": "0.1.0",
+  "title": "Barrels O' Fun!",
+  "author": "ief015",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1"],
+  "description": "Placing down pipes, underground pipes, and (non-off-shore) pumps are forbidden. Prepare to hate oil."
+}
