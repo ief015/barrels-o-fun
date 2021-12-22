@@ -7,7 +7,8 @@ script.on_event(defines.events.on_built_entity,
 		if (
 			ent.name == 'pipe' or
 			ent.name == 'pipe-to-ground' or
-			ent.name == 'pump'
+			ent.name == 'pump' or
+			ent.name == 'storage-tank'
 		) then
 			player.surface.create_entity{name="explosion", position=ent.position, force="neutral"} 
 			ent.destroy()
